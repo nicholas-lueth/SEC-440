@@ -2,8 +2,6 @@
 sudo adduser nick
 sudo usermod -aG sudo nick
 sudo -i
-mv 00-installer-config.yaml /etc/netplan/
-netplan apply
 apt-get update
 apt-get upgrade
 apt-get install keepalived -y
